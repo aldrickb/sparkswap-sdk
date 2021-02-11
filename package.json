@@ -1,5 +1,5 @@
 {
-  "name": "@aldrick/sparkswap-sdk",
+  "name": "@aldrickb/sparkswap-sdk",
   "license": "MIT",
   "version": "0.0.1",
   "description": "🛠 An SDK for building applications on top of sparkswap.",
@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/aldrick/sparkswap-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldrick/sparkswap-sdk.git"
+  },
   "module": "dist/sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
@@ -52,5 +55,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/aldrick/sparkswap-sdk/issues"
+  },
+  "homepage": "https://github.com/aldrick/sparkswap-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
