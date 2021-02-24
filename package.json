@@ -1,8 +1,8 @@
 {
-  "name": "@aldrickb/sparkswap-sdk",
+  "name": "@sparkpointio/sparkswap-sdk",
   "license": "MIT",
   "version": "0.0.1",
-  "description": "🛠 An SDK for building applications on top of sparkswap.",
+  "description": "🛠 An SDK for building applications on top of SparkSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aldrick/sparkswap-sdk.git"
+    "url": "git+https://github.com/sparkpointio/sparkswap-sdk.git"
   },
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -57,9 +57,9 @@
     "singleQuote": true
   },
   "bugs": {
-    "url": "https://github.com/aldrick/sparkswap-sdk/issues"
+    "url": "https://github.com/sparkpointio/sparkswap-sdk/issues"
   },
-  "homepage": "https://github.com/aldrick/sparkswap-sdk#readme",
+  "homepage": "https://github.com/sparkpointio/sparkswap-sdk#readme",
   "directories": {
     "test": "test"
   },
